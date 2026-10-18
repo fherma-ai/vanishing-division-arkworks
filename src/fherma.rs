@@ -25,12 +25,12 @@ pub struct Point {
     pub N: u32,   // u32
     pub H: u32,   // u32
     pub L: u32,   // u32
+    pub q: Tensor<u64>,   // tensor<L x u64>
 }
 
 #[derive(Debug, Clone, Default)]
 pub struct Inputs {
     pub a: Tensor<u64>,   // tensor<N x L x u64>
-    pub q: Tensor<u64>,   // tensor<L x u64>
 }
 
 #[derive(Debug, Clone, Default)]

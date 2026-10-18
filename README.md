@@ -21,7 +21,6 @@ to answer early.
 ## The shapes
 
 - `a` — tensor<N x L x u64>
-- `q` — tensor<L x u64>
 - returns `quotient` — tensor<N x L x u64>
 - returns `remainder` — tensor<H x L x u64>
 
